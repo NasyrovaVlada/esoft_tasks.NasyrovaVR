@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #eff6fa;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h2 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.house {
+    position: relative;
+    width: 400px;
+    height: 480px;
+    margin-top: 100px
+}
+
+.walls {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    bottom: 0;
+    left: 30px;
+}
+
+.roof {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 180px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 180px solid rgb(57, 47, 47);
+}
+
+.window {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(225, 242, 248);
+    border-radius: 50%;
+    top: 60px;
+    left: 60px;
+    border: 2px solid black;
+}
+
+.shutters {
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    background-color: lightblue;
+    border-radius: 0 50px 50px 0;
+    top: 60px;
+    left: 20px;
+    border: 2px solid black;
+}
+
+#right-shutter {
+    border-radius: 50px 0 0 50px;
+    left: 140px;
+}
+
+.stripe {
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    background-color: black;
+    top: 62px;
+    left: 98px;
+}
+
+#horizontal-stripe {
+    width: 80px;
+    height: 5px;
+    top: 95px;
+    left: 62px;
+}
+
+.door {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    background-color: rgb(57, 47, 47);
+    bottom: 0;
+    right: 35px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.chimney {
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    background-color: rgb(116, 65, 40);
+    top: 20px;
+    right: 100px;
+}
+
+.river {
+    position: fixed;
+    width: 100vw;
+    height: 120px;
+    top: 620px;
+    background-color: rgb(7, 62, 124);
+}
+
+.bush {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(2, 74, 24);
+    border-radius: 50%;
+    top: 500px;
+    left: 510px;
+}
+
+#bush-right {
+    width: 60px;
+    height: 60px;
+    top: 520px;
+    left: 830px;
+}
+
